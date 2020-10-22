@@ -2,9 +2,9 @@ import React from 'react';
 
 import Card from '../components/Card';
 
-import devgrub from '../assets/images/devgrub.png';
-import youtube from '../assets/images/youtube.png';
-import evverest from '../assets/images/evverest.png';
+import devgrub from '../assets/images/blanc.png';
+import youtube from '../assets/images/mypic.JPG';
+import evverest from '../assets/images/Creative.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -16,26 +16,27 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Dev Grub',
-                    subTitle: 'The cookbook for developers',
+                    title: 'Zorod',
+                    subTitle: 'Interactive top down shooter arcade themed',
+                    subTitle2:'game developed for play on most web platforms',
                     imgSrc: devgrub,
-                    link: 'https://devgrub.com',
+                    link: 'https://simmer.io/@Dami987/zorod',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'Garrett Love',
-                    subTitle: 'YouTube channel',
+                    title: 'Emmanuel Ajayi',
+                    subTitle: 'Linkedin Profile',
                     imgSrc: youtube,
-                    link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw',
+                    link: 'https://www.linkedin.com/in/emmalare?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2Bcp0Q2eFRlOOtaNDFyg84Q%3D%3D',
                     selected: false
                 },
                 {
                     id: 2,
-                    title: 'Evverest',
-                    subTitle: 'A social network for developers',
+                    title: 'Estore Web Application',
+                    subTitle: 'A Demo Web Application made for online shopping.',
                     imgSrc: evverest,
-                    link: 'https://github.com/garrettlove8/evverest',
+                    link: 'https://github.com/Dami908/Estore-web-application',
                     selected: false
                 },
             ]
