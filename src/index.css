@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./assets/images/red.jpg');
+  background-repeat: no-repeat;
 }
 
 code {
@@ -64,13 +66,3 @@ code {
   text-align: center;
 }
 
-#root{
-  position: absolute;
-  min-width: 100%;
-  min-height:100vh;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left:0;
-  z-index: -1;
-}
