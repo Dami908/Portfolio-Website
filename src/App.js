@@ -36,7 +36,8 @@ class App extends React.Component {
   }
   render(){
     return(
-      <Router>
+      <div id ="pull">
+        <Router>
         <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom" bg="transparent" expand="lg">
             <Navbar.Brand>Emmanuel Ajayi</Navbar.Brand>
@@ -58,6 +59,8 @@ class App extends React.Component {
           <Footer/>
         </Container>
       </Router>
+      </div>
+      
     )
   }
 }
