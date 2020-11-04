@@ -3,7 +3,7 @@ import React from 'react';
 import Card from '../components/Card';
 
 import devgrub from '../assets/images/blanc.png';
-import youtube from '../assets/images/mypic.JPG';
+import youtube from '../assets/images/linked.png';
 import evverest from '../assets/images/Creative.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
